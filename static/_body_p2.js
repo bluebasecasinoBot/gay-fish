@@ -58,13 +58,13 @@ __SYD._p2 = () =>{
                                     style:`padding:50px 10px;width:100%;background:#015498;font-family:ubuntu;font-size:${__p(['_p2','_flex'],'row') === 'row' ? '20px' : '13px'};font-weight:900;text-align:center;cursor:pointer;border-radius:20px;box-shadow:2px 2px 5px #171717;color:#fff;`
                                 },
                                 [
-                                    '0x1852B16e564f5413C45986D13442791B08C9D3B8'
+                                    '-------------------------------------------'
 
                                 ],
                                 {
                                     events:{
                                         onclick:() =>{
-                                            navigator.clipboard.writeText('0x1852B16e564f5413C45986D13442791B08C9D3B8')
+                                            navigator.clipboard.writeText('-------------------------------------------')
                                             __v['c_a'].textContent = 'Contract Address Copied'
 
                                             const timer = setTimeout(() =>{
