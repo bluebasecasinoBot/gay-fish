@@ -21,7 +21,7 @@ __SYD._p4 = () =>{
         [
             __c('h1',{style:`font-weight:900;padding:10px 0;font-weight:100;font-size:${__p(['_p4','__size'],'4rem')}`},['How To Buy']),
             __SYD.buy_tabs(
-                {content:`Download Solana wallet or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to Solana wallet.io.`,title:`Create a Wallet`}
+                {content:`Download phantom wallet or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to`,link:{val:true,content:"phantom.app"}
             ),
             __SYD.buy_tabs({
                 content:`Have SOL in your wallet to switch to $GAYFISH. If you don’t have any SOL, you can buy directly on Solana wallet, transfer from another wallet, or buy on another exchange and send it to your wallet.`,title:`Get Some SOL`
@@ -46,7 +46,7 @@ __SYD._p4 = () =>{
     )
 }
 
-__SYD.buy_tabs = ({title = '' , content = ''}) =>{
+__SYD.buy_tabs = ({title = '' , content = '', link = {val:false}}) =>{
     return __c(
         'div',
         {
@@ -72,7 +72,7 @@ __SYD.buy_tabs = ({title = '' , content = ''}) =>{
                         [
                             __c('p',{style:'font-size:28px;text-align:left;color:blue;text-transform:capitalize'},[title]),
                             __c('p',{style:'font-size: 1.2rem;line-height: 1.75rem;text-align:left;font-weight:100;color:#171717'},[
-                                content
+                                content, link.val ? __c('a',{href:`${link.content}`},[link.content])
                             ])
                         ]
                     )
