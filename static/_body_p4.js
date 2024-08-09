@@ -72,7 +72,7 @@ __SYD.buy_tabs = ({title = '' , content = '', link = {val:false}}) =>{
                         [
                             __c('p',{style:'font-size:28px;text-align:left;color:blue;text-transform:capitalize'},[title]),
                             __c('p',{style:'font-size: 1.2rem;line-height: 1.75rem;text-align:left;font-weight:100;color:#171717'},[
-                                content, link.val ? __c('a',{href:`${link.content}`},[link.content])
+                                content, link.val ? __c('a',{href:`${link.content}`},[link.content]) : ''
                             ])
                         ]
                     )
