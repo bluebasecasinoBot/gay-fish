@@ -24,7 +24,7 @@ __SYD._p4 = () =>{
                 {content:`Download phantom wallet or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to`,link:{val:true,content:"phantom.app"}}
             ),
             __SYD.buy_tabs({
-                content:`Have SOL in your wallet to switch to $GAYFISH. If you don’t have any SOL, you can buy directly on Solana wallet, transfer from another wallet, or buy on another exchange and send it to your wallet.`,title:`Get Some SOL`
+                content:`Go to your phantom app Connect your wallet. Paste the $GAYFISH token address, select GAYFISH, and confirm. When Solana wallet prompts you for a wallet signature, sign.`,title:`Go to phantom`
             }),
             __SYD.buy_tabs({
                 content:`Go to app.uniswap.org on the browser inside your Solana wallet app. Connect your wallet. Paste the $GAYFISH token address into Uniswap, select GAYFISH, and confirm. When Solana wallet prompts you for a wallet signature, sign.`,title:`Go to Uniswap`
