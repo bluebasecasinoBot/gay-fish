@@ -21,16 +21,16 @@ __SYD._p4 = () =>{
         [
             __c('h1',{style:`font-weight:900;padding:10px 0;font-weight:100;font-size:${__p(['_p4','__size'],'4rem')}`},['How To Buy']),
             __SYD.buy_tabs(
-                {content:`Download metamask or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to metamask.io.`,title:`Create a Wallet`}
+                {content:`Download Solana wallet or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to Solana wallet.io.`,title:`Create a Wallet`}
             ),
             __SYD.buy_tabs({
-                content:`Have ETH in your wallet to switch to $GAYFISH. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.`,title:`Get Some ETH`
+                content:`Have SOL in your wallet to switch to $GAYFISH. If you don’t have any SOL, you can buy directly on Solana wallet, transfer from another wallet, or buy on another exchange and send it to your wallet.`,title:`Get Some SOL`
             }),
             __SYD.buy_tabs({
-                content:`Go to app.uniswap.org on the browser inside your Metamask app. Connect your wallet. Paste the $GAYFISH token address into Uniswap, select GAYFISH, and confirm. When Metamask prompts you for a wallet signature, sign.`,title:`Go to Uniswap`
+                content:`Go to app.uniswap.org on the browser inside your Solana wallet app. Connect your wallet. Paste the $GAYFISH token address into Uniswap, select GAYFISH, and confirm. When Solana wallet prompts you for a wallet signature, sign.`,title:`Go to Uniswap`
             }),
             __SYD.buy_tabs({
-                content:`switch ETH for $GAYFISH. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.`,title:`Switch ETH to $GAYFISH`
+                content:`switch SOL for $GAYFISH. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.`,title:`Switch SOL to $GAYFISH`
             }),
         ],
         {
