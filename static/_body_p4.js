@@ -21,7 +21,7 @@ __SYD._p4 = () =>{
         [
             __c('h1',{style:`font-weight:900;padding:10px 0;font-weight:100;font-size:${__p(['_p4','__size'],'4rem')}`},['How To Buy']),
             __SYD.buy_tabs(
-                {content:`Download phantom wallet or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to`,link:{val:true,content:"phantom.app"}
+                {content:`Download phantom wallet or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to`,link:{val:true,content:"phantom.app"}}
             ),
             __SYD.buy_tabs({
                 content:`Have SOL in your wallet to switch to $GAYFISH. If you don’t have any SOL, you can buy directly on Solana wallet, transfer from another wallet, or buy on another exchange and send it to your wallet.`,title:`Get Some SOL`
